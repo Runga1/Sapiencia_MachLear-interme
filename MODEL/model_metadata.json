@@ -1,0 +1,7 @@
+{
+  "project": "Sapiencia ML Intermedio",
+  "artifact_version": "2026.1",
+  "model_type": "XGBoost",
+  "export_date": "2026-04-08",
+  "notes": "Model artifacts reorganized and documented for current project structure."
+}
