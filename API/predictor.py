@@ -7,7 +7,7 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # Carpeta API
 
-MODEL_PATH = os.path.join(BASE_DIR, "MODEL", "xgb_SmallData.joblib")
+MODEL_PATH = os.path.join(BASE_DIR, "MODEL", "xgb_classifier_v2026.joblib")
 
 ENCODERS_PATH = {
     'Receiving Currency': os.path.join(BASE_DIR, "MODEL", "label_encoder_Receiving Currency.joblib"),
