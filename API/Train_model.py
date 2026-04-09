@@ -90,7 +90,7 @@ print("Reporte de clasificación:")
 print(classification_report(y_test, y_pred))
 
 # Guardar modelo y encoders
-joblib.dump(model, os.path.join(MODEL_DIR, 'xgb_SmallData.joblib'))
+joblib.dump(model, os.path.join(MODEL_DIR, 'xgb_classifier_v2026.joblib'))
 for col, le in label_encoders.items():
     joblib.dump(le, os.path.join(MODEL_DIR, f'label_encoder_{col}.joblib'))
 print("Entrenamiento y guardado completados.")
